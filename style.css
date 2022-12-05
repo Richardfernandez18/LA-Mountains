@@ -84,7 +84,7 @@ li {
 }
 .logo-text {
     top: 2.1vh;
-    color: #4d4d4d;
+    color: #404f6c;
     right: 0.1vw;
     transform: scale(1,1.6);
     line-height: 1.4vh;
@@ -284,7 +284,7 @@ img.carousel-img {
 #copyright {
     float: right;
     font-weight: bold;
-    color: #22325b;
+    color: #243662;
     font-size: 1.3vh;
     font-family: 'Noto Sans JP', sans-serif;
     display: block;
@@ -417,7 +417,7 @@ img.carousel-img {
     #footer {
         padding: 0 0 1.1vh 0;
         position: relative;
-        height: 4.5vh;
+        height: 3.5vh;
     }
     #logo-text-2 {
         top: 1.5vh;
@@ -579,7 +579,7 @@ img.carousel-img {
     }
     .logo-text {
         font-size: 1vh;
-        line-height: .8vh;
+        line-height: 84%;
         top: 0.65vh;
         right: 0.3vh;
         letter-spacing: .5;
@@ -642,7 +642,7 @@ img.carousel-img {
         right: 1.3vh;
     }
     #climb-paragraph {
-        bottom: .5vh;
+        top: .2vh;
         font-size: .8vh;
     }
 
@@ -660,11 +660,11 @@ img.carousel-img {
     }
 
     #mountain-logo-3 {
-        top: .7vh;
+        top: .53vh;
         margin: 0 0 0 20vw;
     }
     #logo-text-2 {
-        top: 1.3vh;
+        top: .9vh;
     }
     #copyright {
         font-size: .7vh;
