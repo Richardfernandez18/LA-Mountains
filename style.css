@@ -51,10 +51,11 @@ li.second-li:hover {
 ul {
     bottom: 1.4vw;
     padding: 0;
-    width: 28vw;
-    margin: 0 0 0 43vw;
+    width: 23vw;
+    margin: 0px 0 0 35vw;
     display: inline-block;
     position: relative;
+    left: 11vh;
 }
 #ul-1 {
     bottom: 1.1vh;
@@ -111,7 +112,8 @@ li {
     font-size: 1.7vh;
 }
 #second-ul {
-    width: 23vw;
+    left: 0vh;
+    width: 24vw;
     margin: 0 0 0 35vw;
     bottom: 1vh;
 }
