@@ -51,11 +51,11 @@ li.second-li:hover {
 ul {
     bottom: 1.4vw;
     padding: 0;
-    width: 23vw;
-    margin: 0px 0 0 35vw;
+    width: 25vw;
+    margin: 0px 0 0 31vw;
     display: inline-block;
     position: relative;
-    left: 11vh;
+    left: 10.2vh;
 }
 #ul-1 {
     bottom: 1.1vh;
@@ -113,8 +113,8 @@ li {
 }
 #second-ul {
     left: 0vh;
-    width: 24vw;
-    margin: 0 0 0 35vw;
+    width: 25vw;
+    margin: 0 0 0 31vw;
     bottom: 1vh;
 }
 .second-li {
@@ -311,10 +311,10 @@ img.carousel-img {
         height: 55vh;
     }
     ul {
-        margin: 0px 0 0 8.4vh;
-        width: 26vw;
+        margin: 0px 0 0 8vh;
+        width: 29vw;
         font-size: .9vh;
-        left: 28vw;
+        left: 21vw;
     }
     li {
         font-size: 1vh;
@@ -353,8 +353,8 @@ img.carousel-img {
     #second-ul {
         margin: 0;
         bottom: 1.5vh;
-        left: 28vw;
-        width: 26vw;
+        left: 21vw;
+        width: 29vw;
     }
 
     .heading-numbers {
@@ -397,6 +397,7 @@ img.carousel-img {
     #climb-paragraph {
         font-size: 1vh;
         bottom: 2vh;
+        width: 30vw;
     }
 
     #mountain-container {
@@ -606,7 +607,7 @@ img.carousel-img {
     }
     #second-ul {
         left: unset;
-        margin: 0px 0 0 25vw;
+        margin: 0px 0 0 18vw;
         bottom: .7vh;
     }
     .second-li {
