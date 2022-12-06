@@ -8,6 +8,10 @@ body {
 *, ::after, ::before {
     box-sizing: unset!important;
 }
+img {
+    vertical-align: unset!important;
+    border-style: unset!important;
+}
 
 .li-hover:hover {
     cursor: pointer;
@@ -53,7 +57,7 @@ ul {
     position: relative;
 }
 #ul-1 {
-    top: .5vh;
+    bottom: 1.1vh;
 }
 .numbers {
     margin: 0 0.2vw 0 0;
@@ -77,16 +81,17 @@ li {
     width: 100%;
 }
 #heading-1 {
+    height: 5.848vh;
     margin: 0;
 }
 #mountain-logo-2 {
-    top: 1.3vh;
+    top: 0.95vh;
 }
 .logo-text {
-    top: 2.1vh;
+    top: .15vh;
     color: #404f6c;
     right: 0.1vw;
-    transform: scale(1,1.6);
+    transform: scale(1,1.5);
     line-height: 1.4vh;
     font-weight: 800;
     font-stretch: extra-condensed;
@@ -96,7 +101,9 @@ li {
     font-family: 'Roboto', sans-serif;
     letter-spacing: .05vw;
     position: relative;
-    bottom: 0.2vw;
+}
+#la-text {
+    color: #4d4d4d;
 }
 #mountains {
     color: #404f6c;
@@ -104,8 +111,9 @@ li {
     font-size: 1.7vh;
 }
 #second-ul {
-    margin: 0 0 0 67vw;
-    bottom: 2.7vh;
+    width: 23vw;
+    margin: 0 0 0 35vw;
+    bottom: 1vh;
 }
 .second-li {
     border-bottom: 0.0896vw #404f6c solid;
@@ -158,8 +166,8 @@ li {
     background-image: url(./assets/historyMountainBottom.png);
     width: 100%;
     height: 20vh;
-    background-position: center;
-    background-size: cover;
+    background-position: 36%;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
@@ -220,8 +228,9 @@ img.carousel-img {
     background-color: #b0b4be;
 }
 .mountain-headings {
+    font-size: 2.8vh;
     z-index: 1;
-    bottom: 2vh;
+    bottom: 1.3vh;
     color: #b0b4be;
     letter-spacing: -.6px;
     left: 20.5vw;
@@ -237,13 +246,13 @@ img.carousel-img {
     z-index: 1;
     height: 0.15vh;
     display: inline-block;
-    width: 16vh;
+    width: 12.8vh;
     margin: -0.4vh 0px 0vh 2.05vh;
-    left: 20.5vw
+    left: 20.5vw;
 }
 #underline-2 {
     left: 22vw;
-    width: 16.6vh;
+    width: 13.6vh;
     margin: -0.4vh 0 0 1vh;
 }
 #mountain-1 {
@@ -273,14 +282,14 @@ img.carousel-img {
 
 #footer {
     background-color: #182443;
-    height: 66px;
+    height: 5.848vh;
 }
-#mountain-logo-3 {
+/*#mountain-logo-3 {
     top: 2vh;
 }
 #logo-text-2 {
     top: 2.98vh;
-}
+}*/
 #copyright {
     float: right;
     font-weight: bold;
@@ -290,18 +299,20 @@ img.carousel-img {
     display: block;
     position: relative;
     margin: 0 6vw 0 0vw;
-    top: 3vh;
+    top: 2.2vh;
 }
 
 
 @media screen and (max-width: 700px) {
+
     #mountain-img {
         height: 55vh;
     }
     ul {
-        margin: 0 0 0 37vw;
-        width: 27vw;
+        margin: 0px 0 0 8.4vh;
+        width: 26vw;
         font-size: .9vh;
+        left: 28vw;
     }
     li {
         font-size: 1vh;
@@ -317,9 +328,9 @@ img.carousel-img {
     }
 
     .logo-text {
+        top: unset;
         margin-left: .3vw;
-        top: 1vh;
-        bottom: 0.9vh;
+        bottom: 0.6vh;
         font-size: 1.15vh;
         line-height: 1.01vh;
         transform: scale(1, 1.7);
@@ -338,9 +349,10 @@ img.carousel-img {
     }
 
     #second-ul {
-        margin: 0vw 0 0vw 37vw;
-        bottom: 2.8vh;
-        left: 25vw;
+        margin: 0;
+        bottom: 1.5vh;
+        left: 28vw;
+        width: 26vw;
     }
 
     .heading-numbers {
@@ -404,7 +416,7 @@ img.carousel-img {
         width: 5.2vh;
         bottom: 1.1vh;
         height: .1;
-        margin: 0;
+        margin: 0 0 0 1vh;
     }
 
     .selected {
@@ -417,10 +429,10 @@ img.carousel-img {
     #footer {
         padding: 0 0 1.1vh 0;
         position: relative;
-        height: 3.5vh;
+        height: 3.999vh;
     }
     #logo-text-2 {
-        top: 1.5vh;
+        top: .45vh;
     }
     #mountain-logo-3 {
         top: 1vh;
@@ -492,6 +504,7 @@ img.carousel-img {
         opacity: .4;
     }
     .hamburger-list {
+        left: 0;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -574,24 +587,25 @@ img.carousel-img {
     }
     #mountain-logo-2 {
         margin: 0vh 0 0 14vw;
-        bottom: 0.1vh;
-        top: .35vh;
+        bottom: unset;
+        top: .7vh;
     }
     .logo-text {
         font-size: 1vh;
-        line-height: 84%;
-        top: 0.65vh;
+        top: .3vh;
         right: 0.3vh;
         letter-spacing: .5;
     }
     #mountains {
+        bottom: 0.2vh;
         letter-spacing: .3;
         font-size: 1.1vh;
+        position: relative;
     }
     #second-ul {
         left: unset;
         margin: 0px 0 0 25vw;
-        top: 0vh;
+        bottom: .7vh;
     }
     .second-li {
         font-size: .7vh;
@@ -659,16 +673,45 @@ img.carousel-img {
         margin-left: 1vw;
     }
 
+    #footer {
+        height: 3.201vh;
+    }
     #mountain-logo-3 {
-        top: .53vh;
+        top: .65vh;
         margin: 0 0 0 20vw;
     }
     #logo-text-2 {
-        top: .9vh;
+        top: .25vh;
     }
     #copyright {
         font-size: .7vh;
-        top: 2.15vh;
+        top: 1.65vh;
         margin: 0 5vw 0 0vw
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #second-ul {
+        position: absolute;
+        left: unset;
+        margin: 0px 0 0 7vh;
+        top: 33vh;
+        height: 2vh;
+        width: 12vh;
+    }
+    #history-paragraph {
+        font-size: .8vh;
+    }
+    #climb-paragraph {
+        position: absolute;
+        font-size: .7vh;
+        float: right;
+        top: 78vh;
+    }
+    #mountain-2 {
+        margin-left: 2vh;
+    }
+    #underline-2 {
+        margin-left: 2vh;
     }
 }
